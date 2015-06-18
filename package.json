@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "run": "node -e \"require('open')('index.html')\"",
+    "watch": "node_modules/webpack/bin/webpack.js -w life.js bundle.js",
+    "build": "node_modules/webpack/bin/webpack.js life.js bundle.js"
+  },
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "q": "^1.4.1",
+    "webpack": "^1.9.11"
+  },
+  "dependencies": {
+    "open": "0.0.5"
+  }
+}
